@@ -1,0 +1,92 @@
+/*Asterisk property means it applies to all the elements*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    background: white;
+    font-family: Lato;
+    font-weight: 300;
+    color: #555;
+}
+
+/*Wrapper is the white colored div you will find*/
+.wrapper {
+    max-width: 1000px;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.3);
+}
+
+/*These are the small 6 colors which will be displayed*/
+.circle{
+	width: 22%;
+	padding-bottom: 22%;
+	background: purple;
+	float: left;
+	margin: 5.66%;
+	margin-top: 2%;
+	border-radius: 50%;
+	transition: background 0.6s;
+}
+
+#container{
+	max-width: 600px;
+	margin: 60px auto;
+}
+
+/*This h1 is the title of the game*/
+h1{
+	font-weight: 300;
+	color: white;
+	margin: 0;
+	text-align: center;
+	line-height: 1.1;
+	background: #EB4D4D;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+/*This is the RGB contained in h1*/
+#colorDisplay{
+	font-size: 170%;
+	text-transform: uppercase;
+}
+
+/*This is the try again or correct message*/
+#message{
+	margin: 10px auto;
+	display: block;
+	min-width: 150px;
+	width: 20%;
+}
+
+#stripe{
+	padding: 20px 0;
+	height: 30px;
+	text-align: center;
+}
+
+/*This the new colors button*/
+button {
+    color: #555;
+    background: none;
+    border: 1px solid #EB4D4D;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover { font-weight: 600; }
+button:focus { outline: none; }
